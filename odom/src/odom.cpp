@@ -1,3 +1,7 @@
+//author Khaled Gabr
+//khaledgabr77@gmail.com
+//27/07/2021
+
 #include <string>
 #include <ros/ros.h>
 #include <sensor_msgs/JointState.h>
