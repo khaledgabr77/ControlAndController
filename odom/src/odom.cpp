@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
 
 	while (ros::ok()) {
 		current_time = ros::Time::now();
-		double 	dt = (current_time - last_time).toSec();
+		double  dt = (current_time - last_time).toSec();
 		double	delta_x = (vx * cos(th) - vy * sin(th)) * dt;
 		double	delta_y = (vx * sin(th) + vy * cos(th)) * dt;
 		double	delta_th = vth * dt;
